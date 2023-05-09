@@ -22,18 +22,22 @@
     --continuelight:#A5A1A7;
 }
 body{
+    width: 100%;
+    height: 100vh;
    display: flex;
+   align-items: center;
    justify-content: center;
+   
 }
 .container{
     width: 23em;
     height: 50.5em;
-   
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:22.2em 28.3em;
     box-shadow: 0.5em 0.5em 2em 0.5em #ccc;
 }
+   
 .content1{
     color: var(--font);
     background: linear-gradient(0deg, rgba(49,44,234,1) 20%, rgba(103,67,255,1) 80%);
