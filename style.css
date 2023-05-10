@@ -35,7 +35,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:22.2em 28.3em;
-    box-shadow: 0.5em 0.5em 2em 0.5em #ccc;
+    box-shadow: 0.5em 0.5em 2em 0.5em rgb(224, 217, 255);
 }
    
 .content1{
@@ -150,6 +150,7 @@ button a{
 }
 .grey{
     color: var(--continue);
+    font-weight: bold;
 }
 
 
@@ -161,7 +162,7 @@ button a{
     .container{
         width: 48.6em;
         height: 29em;
-        box-shadow: 0.5em 0.5em 2em 0.5em #ccc;
+        box-shadow: 0.5em 0.5em 2em 0.5em rgb(224, 217, 255);
         display: grid;
         grid-template-columns: 25em 19em;
         grid-template-rows: 29em;
